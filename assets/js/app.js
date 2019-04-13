@@ -4,7 +4,7 @@ app.controller("typingController", function($scope, $interval){
   window.scope = $scope
   $scope.view ={};
   $scope.word ={};
-  $scope.word.skill = ['Django','Python','Javascript'];
+  $scope.word.skill = ['Django','Python','JavaScript','Selenium'];
   
   var idx=0;
   var n=0;
